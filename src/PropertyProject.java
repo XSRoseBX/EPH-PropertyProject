@@ -3,9 +3,17 @@ public class PropertyProject {
     private double width;
     private double length;
 
-    public PropertyProject(){
-        address = "Erzbergerstraße 1";
-        width = 10;
-        length = 20.5;
+    public PropertyProject(String adr, double w, double l){
+        address = adr;
+        width = w;
+        length = l;
+    }
+
+    public String getAddress(){
+        return address;
+    }
+
+    public double getSize() {
+        return length*width;
     }
 }
