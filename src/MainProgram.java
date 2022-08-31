@@ -12,7 +12,7 @@ public class MainProgram {
 
         PropertyProject p3= new PropertyProject( "Jasminastr. 9", 100, 100);
 
+        //Erweitern um Objekte der Klasse Person
+
 
     }
-
-}
