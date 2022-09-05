@@ -3,17 +3,22 @@ public class PropertyProject {
     private double width;
     private double length;
 
-    public PropertyProject(String adr, double w, double l){
-        address = adr;
-        width = w;
-        length = l;
+    public PropertyProject(String address, double width, double length){
+        this.address = address;
+        this.width = width;
+        this.length = length;
     }
 
-    public String getAddress(){
+    public String getAddress() {
         return address;
     }
-
     public double getSize() {
-        return length*width;
+        return width*length;
+    }
+    public double getWidth() {
+        return width;
+    }
+    public double getLength() {
+        return length;
     }
 }
